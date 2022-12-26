@@ -1,0 +1,175 @@
+name: flutter_samples
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  flutter_html: ^2.2.1
+  cupertino_icons: ^1.0.4
+  intl: ^0.18.0
+  provider: ^6.0.2
+  shrine_images: ^2.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  test: ^1.21.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/sample.json
+
+  - assets/images/
+  - assets/images/thumb/
+
+  - packages/shrine_images/0-0.jpg
+  - packages/shrine_images/1-0.jpg
+  - packages/shrine_images/2-0.jpg
+  - packages/shrine_images/3-0.jpg
+  - packages/shrine_images/4-0.jpg
+  - packages/shrine_images/5-0.jpg
+  - packages/shrine_images/6-0.jpg
+  - packages/shrine_images/7-0.jpg
+  - packages/shrine_images/8-0.jpg
+  - packages/shrine_images/9-0.jpg
+  - packages/shrine_images/10-0.jpg
+  - packages/shrine_images/11-0.jpg
+  - packages/shrine_images/12-0.jpg
+  - packages/shrine_images/13-0.jpg
+  - packages/shrine_images/14-0.jpg
+  - packages/shrine_images/15-0.jpg
+  - packages/shrine_images/16-0.jpg
+  - packages/shrine_images/17-0.jpg
+  - packages/shrine_images/18-0.jpg
+  - packages/shrine_images/19-0.jpg
+  - packages/shrine_images/20-0.jpg
+  - packages/shrine_images/21-0.jpg
+  - packages/shrine_images/22-0.jpg
+  - packages/shrine_images/23-0.jpg
+  - packages/shrine_images/24-0.jpg
+  - packages/shrine_images/25-0.jpg
+  - packages/shrine_images/26-0.jpg
+  - packages/shrine_images/27-0.jpg
+  - packages/shrine_images/28-0.jpg
+  - packages/shrine_images/29-0.jpg
+  - packages/shrine_images/30-0.jpg
+  - packages/shrine_images/31-0.jpg
+  - packages/shrine_images/32-0.jpg
+  - packages/shrine_images/33-0.jpg
+  - packages/shrine_images/34-0.jpg
+  - packages/shrine_images/35-0.jpg
+  - packages/shrine_images/36-0.jpg
+  - packages/shrine_images/37-0.jpg
+
+  fonts:
+    - family: enjoy the time
+      fonts:
+        - asset: assets/fonts/enjoy the time/enjoy the time.otf
+    - family: enjoy the time hollow
+      fonts:
+        - asset: assets/fonts/enjoy the time/enjoy the time-hollow.otf
+    - family: enjoy the time inverse
+      fonts:
+        - asset: assets/fonts/enjoy the time/enjoy the time-inverse.otf
+    - family: eternal love
+      fonts:
+        - asset: assets/fonts/eternal love/eternal love.otf
+    - family: eternal love hollow
+      fonts:
+        - asset: assets/fonts/eternal love/eternal love-hollow.otf
+    - family: eternal love hollow inverse
+      fonts:
+        - asset: assets/fonts/eternal love/eternal love-hollow-inverse.otf
+    - family: eternal love inverse
+      fonts:
+        - asset: assets/fonts/eternal love/eternal love-inverse.otf
+    - family: frame work
+      fonts:
+        - asset: assets/fonts/frame work/frame work.otf
+    - family: frame work hollow
+      fonts:
+        - asset: assets/fonts/frame work/frame work-hollow.otf
+    - family: frame work hollow inverse
+      fonts:
+        - asset: assets/fonts/frame work/frame work-hollow-inverse.otf
+    - family: frame work filled inverse
+      fonts:
+        - asset: assets/fonts/frame work/frame work-filled-inverse.otf
+    - family: frankenstain monster
+      fonts:
+        - asset: assets/fonts/frankenstain monster/frankenstain monster.otf
+    - family: frankenstain monster hollow
+      fonts:
+        - asset: assets/fonts/frankenstain monster/frankenstain monster-hollow.otf
+    - family: gabrielle
+      fonts:
+        - asset: assets/fonts/gabrielle/gabrielle.otf
+    - family: gabrielle hollow
+      fonts:
+        - asset: assets/fonts/gabrielle/gabrielle-hollow.otf
+    - family: gabrielle hollow inverse
+      fonts:
+        - asset: assets/fonts/gabrielle/gabrielle-hollow-inverse.otf
+    - family: gabrielle inverse
+      fonts:
+        - asset: assets/fonts/gabrielle/gabrielle-inverse.otf
+    - family: game player
+      fonts:
+        - asset: assets/fonts/game player/game player.otf
+    - family: game player hollow
+      fonts:
+        - asset: assets/fonts/game player/game player-hollow.otf
+    - family: game player hollow inverse
+      fonts:
+        - asset: assets/fonts/game player/game player-hollow-inverse.otf
+    - family: game player inverse
+      fonts:
+        - asset: assets/fonts/game player/game player-inverse.otf
+    - family: nano
+      fonts:
+        - asset: assets/fonts/nano/nano.otf
+    - family: nano inverse
+      fonts:
+        - asset: assets/fonts/nano/nano-inverse.otf
+    - family: droid
+      fonts:
+        - asset: assets/fonts/droid.otf
+    - family: decorated
+      fonts:
+        - asset: assets/fonts/decorated.ttf
+    - family: digital
+      fonts:
+        - asset: assets/fonts/digital.ttf
+    - family: frame
+      fonts:
+        - asset: assets/fonts/frame.ttf
+    - family: leafly
+      fonts:
+        - asset: assets/fonts/leafly.ttf
+    - family: mandalas
+      fonts:
+        - asset: assets/fonts/mandalas.ttf
+    - family: mountain dew
+      fonts:
+        - asset: assets/fonts/mountain dew.ttf
+    - family: origami
+      fonts:
+        - asset: assets/fonts/origami.ttf
+    - family: precious
+      fonts:
+        - asset: assets/fonts/precious.ttf
+    - family: sketch rock wall
+      fonts:
+        - asset: assets/fonts/sketch rock wall.ttf
